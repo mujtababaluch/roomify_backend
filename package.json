@@ -4,7 +4,6 @@
   "description": "Express + MongoDB backend for Roomify (room booking app) with JWT auth",
   "main": "src/index.js",
   "type": "module",
-  "postinstall": "npm run seed",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
