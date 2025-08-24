@@ -16,7 +16,7 @@ app.use(helmet());
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors({
-  origin: process.env.CORS_ORIGIN?.split(',') || '*',
+  origin: '*',
   credentials: true,
 }));
 
